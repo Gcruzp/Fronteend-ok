@@ -1,0 +1,17 @@
+<p class="titulo">Personagens da Série The Office</p>
+<div class="espacamento">
+    <div class="agrupador">
+        <div class="container" *ngFor="let personagem of personagens">
+            <h2>{{ personagem.name | uppercase }}</h2>
+            <p>Gender: {{ personagem.gender }}</p>
+            <p>Marital: {{ personagem.marital }}</p>
+            <p>Job: {{ personagem.job.join(', ') }}</p>
+            <p>Workplace: {{ personagem.workplace.join(', ') }}</p>
+            <p>First Appearance: {{ personagem.firstAppearance }}</p>
+            <p>Last Appearance: {{ personagem.lastAppearance }}</p>
+            <p>Actor: {{ personagem.actor | uppercase }}</p>        
+    </div>
+    <ng-template #noData>
+        <p>Nenhum dado disponível no momento.</p>
+    </ng-template>
+</div>

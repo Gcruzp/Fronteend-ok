@@ -1,0 +1,40 @@
+.titulo{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.agrupador{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    border: 4px;
+    border-color: black;
+    margin: 5px;
+    text-align: center;
+    height: auto;
+}
+
+.alinhamento{
+    display: flex;
+    align-items: center;
+}
+
+.tamanho{
+    align-items: center;
+    justify-content: center;
+    max-height: 700px;
+    max-width: 850px;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2), 0 24px 48px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.fonte{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 10px;
+}
+
